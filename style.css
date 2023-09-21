@@ -66,6 +66,7 @@ button:hover{
     display: inline;
 }
 #rules{
+    margin:0px;
     font-weight: bold;
     color: rgb(170, 165, 163);
     font-size: 30px;
@@ -112,7 +113,7 @@ button:hover{
     text-align: center;
     font-size: 53px;
     font-weight: bold;
-    color: rgb(111 3 3 / 81%);
+    color: rgba(211, 114, 4, 0.81);
    
 }
 #contain{
