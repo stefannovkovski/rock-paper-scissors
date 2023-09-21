@@ -52,6 +52,7 @@ button{
 }
 button:hover{
     cursor:grab;
+    background-color: rgba(211, 114, 4, 0.81);
 }
 #second{
     font-size: 33px;
