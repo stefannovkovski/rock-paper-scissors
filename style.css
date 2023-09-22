@@ -12,7 +12,7 @@ h1{
     font-size: 35px;
     background-color: rgba(0, 0, 0, 0.445);
     max-width: fit-content;
-    padding: 5px;
+    padding: 8px;
     padding-left: 70px;
     padding-right: 70px;
     border-radius: 5px;
@@ -38,13 +38,15 @@ h1{
     
 }
 button{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.2em;
     background-color:rgb(170, 165, 163);
     color: black;
     border-radius: 15px;
     border: black 3px solid;
     font-size: 25px;
     font-weight: bold;
-    width: 190px;
+    width: 230px;
     padding: 10px;
     margin-bottom: 15px;
     
@@ -88,7 +90,7 @@ button:hover{
     margin-right: 50px;
     background-color: rgba(0, 0, 0, 0.445);
     max-width: fit-content;
-    padding: 10px;
+    padding: 9px;
     height: 40px;
     border-radius: 5px;
 }
@@ -124,4 +126,8 @@ button:hover{
 .photo1{
     width:35px;
     height:28px;
+}
+body{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.2em;
 }
