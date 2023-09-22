@@ -77,12 +77,13 @@ button:hover{
 
 #main{
     display: flex;
+    margin-left:273px;
 }
 #firstpart{
     font-weight: bold;
     color: rgb(170, 165, 163);
     font-size: 30px;
-    margin-left: 350px;
+    margin-left: 80px;
     margin-top: 27px;
     display: flex;
 }
@@ -98,7 +99,7 @@ button:hover{
     font-weight: bold;
     color: rgb(39, 37, 36);
     font-size: 33px;
-    margin-left: 350px;
+    margin-left: 80px;
     margin-top: 50px;
     background-color:rgb(170, 165, 163);
     padding: 10px;
@@ -118,10 +119,6 @@ button:hover{
     font-weight: bold;
     color: rgba(211, 114, 4, 0.81);
    
-}
-#contain{
-    margin-right:100px;
-    margin-left:100px;
 }
 .photo1{
     width:35px;
