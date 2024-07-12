@@ -20,18 +20,18 @@
   btn3.addEventListener('click', playRound);
 
   function check(){
-  if(you==5 || pc==5)
-  {
-    if(you==5)
+    if(you==5){
         div6.textContent='The game is over! You are the winner.';
-    else
-        div6.textContent='The game is over! The computer is the winner.';
-
-    pc=0;
-    you=0;
-
+        pc=0;
+        you=0;
+    }
+    else if (pc == 5) {
+         div6.textContent='The game is over! The computer is the winner.';
+         pc=0;
+         you=0;
+    }
   }
-}
+
 
   function getComputerChoice(max){
     let choice= Math.floor(Math.random()*max);
